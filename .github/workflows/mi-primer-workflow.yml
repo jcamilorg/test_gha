@@ -1,4 +1,4 @@
-name: Mi primer WorkFlow
+name: Hola mundo
 on:
   push:
     branches: [master]
@@ -10,5 +10,5 @@ jobs:
       - name: Imprimir
         env:
           MI_VARIABLE: Hola mundo
-          run: |
-            echo $MI_VARIABLE.
+        run: |
+          echo $MI_VARIABLE.
